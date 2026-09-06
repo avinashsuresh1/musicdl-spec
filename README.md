@@ -1,6 +1,6 @@
 # 🎼 MusicDL Specification (`musicdl-spec`)
 
-The official, language-agnostic YAML format specification, schema guidelines, usage documentation, and reference composition examples for **MusicDL (Music Definition Language)**.
+A language-agnostic YAML format specification, schema guidelines, usage documentation, and reference composition examples for **MusicDL (Music Definition Language)**.
 
 MusicDL allows you to compose music declaratively using plain YAML files defining instruments, melodies, chords, and tracks.
 
