@@ -1,0 +1,10 @@
+{
+  "name": "musicdl-spec",
+  "version": "1.0.0",
+  "description": "YAML specification, schema, documentation, and example compositions for MusicDL",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avinashsuresh1/musicdl-spec.git"
+  }
+}

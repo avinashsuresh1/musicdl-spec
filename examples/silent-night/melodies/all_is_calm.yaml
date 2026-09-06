@@ -1,0 +1,6 @@
+instrument: music_box
+notes:
+  - { pitch: 14, duration: 2.0 }
+  - { pitch: 11, duration: 1.0 }
+  - { pitch: 12, duration: 2.0 }
+  - { pitch: 7,  duration: 1.0 }
