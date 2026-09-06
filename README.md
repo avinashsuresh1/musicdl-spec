@@ -20,7 +20,7 @@ MusicDL allows you to compose music declaratively using plain YAML files definin
    - [Tracks (`tracks/`)](#5-tracks-tracks)
 4. [Acoustic Register Shifting & Musical Clefs](#-acoustic-register-shifting--musical-clefs)
 5. [Included Sample Compositions](#-included-sample-compositions)
-6. [Engine Implementations & Ecosystem](#-engine-implementations--ecosystem)
+6. [Engine Implementation](#-engine-implementation)
 
 ---
 
