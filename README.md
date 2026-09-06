@@ -47,7 +47,7 @@ my-composition/
 
 ## 🎼 Specification Structure
 
-For a full formal breakdown of all fields, constraints, types, and defaults, see [SPECIFICATION.md](file:///d:/MusicDL/musicdl-spec/SPECIFICATION.md).
+For a full formal breakdown of all fields, constraints, types, and defaults, see [SPECIFICATION.md](musicdl-spec/SPECIFICATION.md).
 
 ### Quick Summary
 
