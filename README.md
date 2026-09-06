@@ -136,4 +136,4 @@ This repository contains ready-to-play sample compositions in `examples/`:
 ## 🛠 Engine Implementation
 
 musicdl-engine is one implementation of this spec.
-* **[`musicdl-engine`](file:///d:/MusicDL/musicdl-engine)**: Interactive desktop editor, timeline scheduler, real-time Web Audio player, and offline PCM audio synthesizer renderer.
+* **[musicdl-engine]**: Interactive desktop editor, timeline scheduler, real-time Web Audio player, and offline PCM audio synthesizer renderer.
