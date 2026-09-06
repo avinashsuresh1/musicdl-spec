@@ -47,7 +47,7 @@ my-composition/
 
 ## 🎼 Specification Structure
 
-For a full formal breakdown of all fields, constraints, types, and defaults, see [SPECIFICATION.md](musicdl-spec/SPECIFICATION.md).
+For a full formal breakdown of all fields, constraints, types, and defaults, see [SPECIFICATION.md](https://github.com/avinashsuresh1/musicdl-spec/SPECIFICATION.md).
 
 ### Quick Summary
 
@@ -136,4 +136,4 @@ This repository contains ready-to-play sample compositions in `examples/`:
 ## 🛠 Engine Implementation
 
 musicdl-engine is one implementation of this spec.
-* **[musicdl-engine](/musicdl-engine)**: Interactive desktop editor, timeline scheduler, real-time Web Audio player, and offline PCM audio synthesizer renderer.
+* **[musicdl-engine](https://github.com/avinashsuresh1/musicdl-engine))**: Interactive desktop editor, timeline scheduler, real-time Web Audio player, and offline PCM audio synthesizer renderer.
