@@ -47,7 +47,7 @@ adsr:
 | `harmonics` | `array` | **Yes** | N/A | Array of harmonic objects `{ z: number, amplitude: number }`. Must contain at least 1 harmonic. |
 | `harmonics[].z` | `number` | **Yes** | N/A | Harmonic frequency multiplier ($z > 0$). $1.0$ is fundamental, $2.0$ is 1 octave up, $2.76$ is inharmonic bell partial. |
 | `harmonics[].amplitude` | `number` | **Yes** | N/A | Relative amplitude ($0.0 \le \text{amplitude} \le 1.0$). |
-| `octave_shift` | `integer` | No | `0` | Integer octave register shift ($\dots, -2, -1, 0, 1, 2, \dots$). Shifts all pitches for this instrument by $12 \times \text{octave\_shift}$ semitones. |
+| `octave_shift` | `integer` | No | `0` | Integer octave register shift ($\dots, -2, -1, 0, 1, 2, \dots$). Shifts all pitches for this instrument by $12 \times \text{octaveShift}$ semitones. |
 | `adsr` | `object` | No | Default envelope | ADSR envelope specification containing `attack`, `decay`, `sustain`, `release`. |
 | `adsr.attack` | `number` | No | `10` | Attack time in milliseconds ($\ge 0$). |
 | `adsr.decay` | `number` | No | `50` | Decay time in milliseconds ($\ge 0$). |
@@ -128,9 +128,9 @@ chords:
 ## 6. Pitch & Frequency Formulas
 
 Given:
-- Pitch interval $p \in \mathbb{Z}$ (plus $12 \times \text{octave\_shift}$)
+- Pitch interval $p \in \mathbb{Z}$ (plus $12 \times \text{octaveShift}$)
 - Root frequency $f_0 \in \mathbb{R}^+$
 - Step interval in cents $I \in \mathbb{R}^+$
 
 The output frequency $f$ in Hz is calculated as:
-$$f = f_0 \times 2^{\frac{p \times I}{1200}}$$
+$$f = f_0 \times 2^{\frac{(p + 12 \times \text{octaveShift}) \times I}{1200}}$$
