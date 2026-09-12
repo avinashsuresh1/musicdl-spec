@@ -1,4 +1,4 @@
-# 📄 MusicDL Formal Specification (v1.1.9)
+# 📄 MusicDL Formal Specification (v1.0)
 
 This document defines the formal YAML schema, validation rules, data types, and default values for **MusicDL (Music Definition Language)** projects.
 
