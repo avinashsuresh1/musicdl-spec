@@ -47,7 +47,7 @@ my-composition/
 
 ## 🎼 Specification Structure
 
-For a full formal breakdown of all fields, constraints, types, and defaults, see [SPECIFICATION.md](https://github.com/avinashsuresh1/musicdl-spec/SPECIFICATION.md).
+For a full formal breakdown of all fields, constraints, types, and defaults, see [SPECIFICATION.md](https://github.com/avinashsuresh1/musicdl-spec/blob/main/SPECIFICATION.md).
 
 ### Quick Summary
 
